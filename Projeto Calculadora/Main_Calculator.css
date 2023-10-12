@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+Body {
+    background-color: brown;
+    height: 10%;
+}
+
+.BarraPrincipal {
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: first baseline;
+}
+
+.ProjetoCalculadora {       
+    background-color: rgb(27, 27, 27);
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.Tabela_calculadora {
+    background-color: rgb(20,20,20,0.9);
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 7.8%;
+    
+
+}
+
+.Tituloeresultado {
+   color: whitesmoke;
+   text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgb(34, 34, 34);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgba(30, 30, 30, 0.92);
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(34, 34, 34);
+    color: whitesmoke;  
+    font-size: 25px;
+    cursor: pointer;
+    border-color: hsl(180, 2%, 10%);
+    border-radius: 12px;  
+    margin: 3px;
+}
+
+.botao:hover {
+    background-color:rgb(20, 20, 20);
+}
+
+#Resultado{
+    background-color: white;
+    width: 182px;
+    height: 30px;
+    margin: 22px ;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: right;
+    padding: 25px;
+    
+}
